@@ -6,3 +6,90 @@
     box-sizing: border-box;
 }
 
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header {
+    height:80px;
+    width: 100%;
+    background-color: #255ee9;
+    line-height: 80px;
+    font-family: 'Whitney', sans-serif;
+}
+
+.logo,
+.button {
+    width: 25%;
+    float: left;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+nav {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.button {
+    text-align: right;
+}
+
+.button a {
+    color:black;
+    text-decoration: none;
+    padding: 10px 16px;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 40px;
+    font-weight: 300;
+}
+
+/* debug  */
+
+
+ /* .debug header {
+    background-color: #9400ff;
+ }
+
+ .debug nav{
+     background-color: #fff;
+     border: black 1px solid;
+ }
+
+.debug .logo {
+    background-color: #fff;
+    border: black 1px solid;
+}
+
+.debug .button {
+    background-color: #fff;
+    border: black 1px solid;
+} */
+
+ .debug #jumbo {
+     height: 550px;
+     background-color: pink;
+ }
