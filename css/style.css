@@ -1,7 +1,7 @@
 /* commons  */
 
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Whitney', sans-serif;
@@ -22,19 +22,26 @@
 
 .white {
     background-color: white;
-    color:black;
+    color: black;
 }
 
 .black {
     background-color: black;
-    color:white;
+    color: white;
 }
 
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
 
 /* header  */
 
 header {
-    height:80px;
+    height: 80px;
     width: 100%;
     background-color: #255ee9;
     line-height: 80px;
@@ -60,7 +67,7 @@ nav li {
     display: inline-block;
 }
 
-nav li a{
+nav li a {
     color: white;
     text-decoration: none;
     margin: 0 10px;
@@ -73,7 +80,7 @@ nav li a{
 }
 
 .buttonhead a {
-    color:black;
+    color: black;
     text-decoration: none;
     padding: 10px 16px;
     font-size: 14px;
@@ -106,12 +113,12 @@ nav li a{
     text-align: center;
 }
 
-.jumbo-content h1{
+.jumbo-content h1 {
     font-size: 56px;
     margin-bottom: 40px;
 }
 
-.jumbo-content p{
+.jumbo-content p {
     font-size: 20px;
     margin-bottom: 40px;
     font-weight: 300;
@@ -124,11 +131,11 @@ nav li a{
     text-decoration: none;
 }
 
-.jumbo-content a i{
+.jumbo-content a i {
     padding-right: 10px;
 }
 
-.jumbo-content a:last-child{
+.jumbo-content a:last-child {
     margin-left: 24px;
 }
 
@@ -145,19 +152,22 @@ nav li a{
 
 .container-main {
     display: inline-block;
+    clear: left;
 }
 
 .main-img {
-    width: 70%;
-    float: left;
+    width: 65%;
+}
+
+.main-img img {
+    width: 90%;
 }
 
 .descrizione {
-    width: 30%;
-    float: right;
+    width: 35%;
 }
 
-.descrizione h2{
+.descrizione h2 {
     font-size: 50px;
     line-height: 50px;
 }
@@ -168,7 +178,9 @@ nav li a{
     line-height: 30px;
 }
 
-
+.bgsection {
+    background-color: #f6f6f6;
+}
 
 
 
