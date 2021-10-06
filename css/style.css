@@ -182,8 +182,23 @@ nav li a {
     background-color: #f6f6f6;
 }
 
+.big-content {
+    text-align: center;
+}
 
+.big-content h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
 
+.big-content p {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.big-content .imgbig {
+    width: 100%;
+}
 
 
 
