@@ -4,7 +4,9 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Whitney', sans-serif;
 }
+
 
 .clearfix::after {
     display: table;
@@ -18,12 +20,24 @@
     height: 100%;
 }
 
+.white {
+    background-color: white;
+    color:black;
+}
+
+.black {
+    background-color: black;
+    color:white;
+}
+
+
+/* header  */
+
 header {
     height:80px;
     width: 100%;
     background-color: #255ee9;
     line-height: 80px;
-    font-family: 'Whitney', sans-serif;
 }
 
 .logo,
@@ -51,13 +65,14 @@ nav li a{
     text-decoration: none;
     margin: 0 10px;
     font-size: 16px;
+    font-weight: 600;
 }
 
-.button {
+.buttonhead {
     text-align: right;
 }
 
-.button a {
+.buttonhead a {
     color:black;
     text-decoration: none;
     padding: 10px 16px;
@@ -66,6 +81,56 @@ nav li a{
     border-radius: 40px;
     font-weight: 300;
 }
+
+/* / header */
+
+/* jumbo */
+
+#jumbo {
+    height: 550px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+#jumbo .jumbo-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+
+.jumbo-content {
+    text-align: center;
+}
+
+.jumbo-content h1{
+    font-size: 56px;
+    margin-bottom: 40px;
+}
+
+.jumbo-content p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    padding: 16px 32px;
+    font-size: 20px;
+    border-radius: 2em;
+    text-decoration: none;
+}
+
+.jumbo-content a i{
+    padding-right: 10px;
+}
+
+.jumbo-content a:last-child{
+    margin-left: 24px;
+}
+
+/* /jumbo */
 
 /* debug  */
 
@@ -88,8 +153,3 @@ nav li a{
     background-color: #fff;
     border: black 1px solid;
 } */
-
- .debug #jumbo {
-     height: 550px;
-     background-color: pink;
- }
