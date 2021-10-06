@@ -187,7 +187,7 @@ nav li a {
 }
 
 .big-content h2 {
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 20px;
 }
 
@@ -200,8 +200,23 @@ nav li a {
     width: 100%;
 }
 
+.endmain {
+    text-align:center;
+    padding-top: 40px
+}
 
+.endmain h2 {
+    margin-bottom: 40px
+}
 
+.endmain a{
+    background-color: #5865f2;
+    color: white;
+}
+
+.endmain a i{
+    padding-right: 10px;
+}
 
 /* debug  */
 
