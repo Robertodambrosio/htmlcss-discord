@@ -15,7 +15,7 @@
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     height: 100%;
 }
@@ -92,6 +92,7 @@ nav li a{
     background-size: cover;
     position: relative;
     color: white;
+    line-height: 30px;
 }
 
 #jumbo .jumbo-content {
@@ -113,6 +114,7 @@ nav li a{
 .jumbo-content p{
     font-size: 20px;
     margin-bottom: 40px;
+    font-weight: 300;
 }
 
 .btn {
@@ -131,6 +133,48 @@ nav li a{
 }
 
 /* /jumbo */
+
+/* main */
+
+
+
+#section-main {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.container-main {
+    display: inline-block;
+}
+
+.main-img {
+    width: 70%;
+    float: left;
+}
+
+.descrizione {
+    width: 30%;
+    float: right;
+}
+
+.descrizione h2{
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.descrizione p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
 
 /* debug  */
 
